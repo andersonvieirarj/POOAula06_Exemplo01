@@ -13,9 +13,8 @@ public class Principal {
 
         for (Pessoa pessoasBissexto : pessoa) {
             if (pessoasBissexto.getDataNascimento().isLeapYear()){
-                System.out.println(pessoasBissexto.getNome() + " " + pessoasBissexto.getDataNascimento());;
+                System.out.println(pessoasBissexto.toString());
             }
-
         }
     }
 }
